@@ -22,8 +22,8 @@ python3 main.py --question "Name all countries in Asia starting with K" --llm-na
 ```
 - --question: This is the original query/question asked by the user
 - --llm-name: The OpenAI model name the user wants to use
-- --temperature: You know it 😉
-- --max-tokens: Tou know it as well 😉
+- --temperature: define the randomness of the output
+- --max-tokens: maximum tokens to be consumed
 - --show-intermediate-steps: Activating this will alow printing of the intermediate results such as `baseline response`, `verification questions and answers`.
 
 # Enhancement Suggestions
